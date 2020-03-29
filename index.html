@@ -14,46 +14,52 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- BS -->
+        <a class="navbar-brand" href="#">Navbar</a> <!-- BS -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!-- BS -->
+            <span class="navbar-toggler-icon"></span> <!-- BS -->
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"><!-- BS -->
+            <ul class="navbar-nav mr-auto"><!-- BS -->
+                <li class="nav-item active"><!-- BS -->
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a><!-- BS -->
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown"><!-- BS -->
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         My Projects(Dropdown)
-                    </a>
+                    </a><!-- BS -->
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://github.com/hessj1994">View All My C#/Html-CSS Projects</a>
-                        <!-- <a class="dropdown-item" href="#">View My CS#arp Projects</a>  Post github(.io?) Links -->
+                        <a class="dropdown-item" href="https://github.com/hessj1994">View All My C#/Html-CSS Projects</a><!-- BS -->
+
+                        <!-- <a class="dropdown-item" href="#">View My CS#arp Projects</a>  Post *github(.io?)* Links -->
                         <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here, games</a> -->
+                    
+                            <!-- BS -->
+
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container text-vertical-center name">
+    <div class="container text-vertical-center name"> <!-- BS -->
         <h1 id="title" style="font-size: 500%; letter-spacing: -2px;">Justin Hess</h1>
+        <!-- MOVE TO CSS ^^^ -->
         <h3 id="title" style="font-size: 200%;">SOFTWARE DEVELOPER QUESTION MARK</h3>
+        <!-- MOVE TO CSS ^^^ -->
     </div>
     <!-- buttons -->
-    <div class="buttons borderless">
-        <button type="button" class="btn" data-toggle="modal" data-target=".bd-about-modal-lg">ABOUT ME</button>
-        <!-- send to other point on page, dont try and make two -->
+    <div class="buttons borderless"> <!-- Radio buttons, maybe BS bs? -->
+        <button type="button" class="btn" data-toggle="modal" data-target=".bd-about-modal-lg">ABOUT ME</button> | <!-- BS -->
+        <!-- send to other point on page, dont try and make two, or open new sections of current page that will be hidden initially -->
 
-        <button type="button" class="btn" data-toggle="modal" data-target=".bd-projects-modal-lg">PROJECTS</button> |
+        <button type="button" class="btn" data-toggle="modal" data-target=".bd-projects-modal-lg">PROJECTS</button> |<!-- BS -->
 
-        <button type="button" class="btn" data-toggle="modal" data-target=".bd-contact-modal-lg">CONTACT</button>
+        <button type="button" class="btn" data-toggle="modal" data-target=".bd-contact-modal-lg">CONTACT</button> <!-- add container? BS -->
     </div>
 
     <br />
@@ -69,21 +75,21 @@
 
     <ul class="list-unstyled">
         <li class="media"><!-- switch to ID for each section?-->
-            <img src="facepicture" class="mr-3" alt="..." href="./assets">
+            <img src="facepicture" class="mr-3" alt="..." href="./assets/proface.jpg">
             <div class="media-body">
-                <h5 class="mt-0 mb-1">About Me</h5>
-                Ask for an extension til sunday or monday, if theres an option to restart the class in march. assuming i dont catch up to where i need to be
+                <h5 class="mt-0 mb-1">About Me</h5> <!-- BS -->
+                lihbbyyfygb
             </div>
         </li>
-        <li class="media my-4">
-            <img src="projectPicOne" class="mr-3" alt="...">
+        <li class="media my-4"> <!-- BS -->
+            <img src="projectPicOne" class="mr-3" alt="..."> <!-- css, add alt text, maybe a converter to different languages by referencing external site -->
             <div class="media-body">
                 <h5 class="mt-0 mb-1">Project Highlights</h5>
                 Use all available pictures, dont worry about linking them just yet. Even UI game.
             </div>
         </li>
         <li class="media">
-            <img src="projectPicOne" class="mr-3" alt=".."><!--project pic style/type = tiles-->
+            <img src="projectPicOne" class="mr-3" alt="..."><!--project pic style/type = tiles-->
             <div class="media-body">
                 <h5 class="mt-0 mb-1">Resume</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
@@ -104,7 +110,7 @@
     <br />
     <br />
 
-    <div class="application-main d-flex flex-auto flex-column" data-commit-hovercards-enabled="">
+    <div class="application-main d-flex flex-auto flex-column" data-commit-hovercards-enabled=""> <!-- BS -->
         <main>
             <div class="container-lg mt-5 px-3">
                 <form role="search" action="/search" accept-charset="UTF-8" method="get"><input name="utf8"
@@ -129,8 +135,8 @@
 
                 <div class="mt-5 text-gray-light text-center">
                     <a href="https://github.com/contact" class="link-gray">LinkedIn</a> —
-                    <a href="https://githubstatus.com" class="link-gray">GitHub</a> —
-                    <a href="https://twitter.com/githubstatus" class="link-gray">codepen.io/repl.it</a>
+                    <a href="https://githubstatus.com" class="link-gray">GitHub repo page</a> —
+                    <a href="https://twitter.com/githubstatus" class="link-gray"> not codepen.io/repl.it</a>
                 </div>
             </div>
         </main>
